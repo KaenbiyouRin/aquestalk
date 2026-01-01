@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/aquestalk/__init__.py
+src/aquestalk/audio.py
+src/aquestalk/core.py
+src/aquestalk.egg-info/PKG-INFO
+src/aquestalk.egg-info/SOURCES.txt
+src/aquestalk.egg-info/dependency_links.txt
+src/aquestalk.egg-info/requires.txt
+src/aquestalk.egg-info/top_level.txt

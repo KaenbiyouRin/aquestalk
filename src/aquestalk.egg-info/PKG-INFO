@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: aquestalk
+Version: 1.0.0
+Summary: Python wrapper for AquesTalk speech synthesis engine
+Home-page: https://github.com/yourusername/aquestalk
+Author: Your Name
+Project-URL: Bug Reports, https://github.com/yourusername/aquestalk/issues
+Project-URL: Source, https://github.com/yourusername/aquestalk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: soundfile>=0.10.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: twine>=3.0; extra == "dev"
+Provides-Extra: full
+Requires-Dist: aqkanji2koe>=0.1.0; extra == "full"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AquesTalk Python Wrapper
+
+Python interface for AquesTalk speech synthesis engine (Japanese text-to-speech).
+
+## Features
+- Synthesize Japanese phoneme strings to speech
+- Support for multiple encodings (UTF-8, UTF-16, Shift-JIS)
+- Adjustable speech speed (50-300%)
+- WAV audio output
+- Proper resource management
+- Save audio to files
+- Combine with AqKanji2Koe for full text-to-speech pipeline
+
+## Installation
+
+```bash
+pip install aquestalk

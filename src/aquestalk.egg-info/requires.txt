@@ -1,0 +1,9 @@
+numpy>=1.18.0
+soundfile>=0.10.0
+
+[dev]
+pytest>=6.0
+twine>=3.0
+
+[full]
+aqkanji2koe>=0.1.0
